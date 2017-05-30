@@ -30,7 +30,7 @@ npm install -g typings
 npm install -g typescript
 ```
 
-### 1. Create a new project
+### 1. Create a new project 
 
 ```bash
 ng new <project-name>
@@ -93,6 +93,7 @@ import { environment } from '../environments/environment';
   ],
   declarations: [ AppComponent ],
   bootstrap: [ AppComponent ]
+  //HERE
 })
 export class AppModule {}
 
@@ -160,6 +161,7 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css']
+  //OR HERE
 })
 export class AppComponent {
   constructor(db: AngularFireDatabase) {
