@@ -30,7 +30,7 @@ npm install -g typings
 npm install -g typescript
 ```
 
-### 1. Create a new project
+### 1. Create a new project 
 
 ```bash
 ng new <project-name>
